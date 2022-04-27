@@ -7,7 +7,7 @@
 </p>
   
 <h4  align="center">
-    🚧 Atividade da Aula 03 de HTML 📚
+    🚧 Atividade desafio da Aula 03 de HTML 📚
     <a  href="https://www.alphaedtech.org.br/">
         Alpha EdTech
     </a>
