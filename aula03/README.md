@@ -1,5 +1,5 @@
 <p align="center">
-	<a href="#"> 
+	<a href="https://desafio-aula03-alpha-edtech.netlify.app/" target="_blank"> 
 		<img alt="Alpha EdTech" title="Alpha EdTech" src="https://user-images.githubusercontent.com/79182711/165420288-a41a1f59-ba92-4920-a3a5-c19cdf4c815b.PNG" width="750">
 	</a>    
 <br>
@@ -13,7 +13,9 @@
     </a>
     🚧
 </h4>
-<br></br> 
+<br></br>
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/99639af0-0b7a-437d-99b0-d5d78d2175a0/deploy-status)](https://pokemon-b8one-academy.netlify.app/)
 
 --- 
 
