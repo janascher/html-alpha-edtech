@@ -1,5 +1,5 @@
 <p align="center">
-	<a href="#" target="_blank"> 
+	<a href="https://aula06-alpha-edtech.netlify.app/" target="_blank"> 
 		<img alt="Alpha EdTech" title="Alpha EdTech" src="https://user-images.githubusercontent.com/79182711/166085013-93f5694a-ac32-4584-9475-256d4bc195eb.png" width="750">
 	</a>    
 <br>
@@ -15,7 +15,7 @@
 </h4>
 <br></br> 
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/99639af0-0b7a-437d-99b0-d5d78d2175a0/deploy-status)](#)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/99639af0-0b7a-437d-99b0-d5d78d2175a0/deploy-status)](https://aula06-alpha-edtech.netlify.app/)
 
 --- 
 
