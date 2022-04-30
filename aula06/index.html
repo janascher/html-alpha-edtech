@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Grande Dia</title>
+        <style>
+
+            h1{
+                color: #C60265;
+            }
+
+            body{
+                background-color: #FCF3F6;
+                margin: auto;
+                max-width: 900px;
+                padding-top: 30px;
+            }
+
+            button{
+                background-color:#C60265;
+                border: none;
+                color: #ffff;
+                cursor: pointer;
+            }
+
+            img{
+               margin: auto;
+               display: block;
+            }
+
+            textarea{
+                width: 892px;
+            }
+
+            #name-bride,
+            #last-name-bride,
+            #tel-bride,
+            #email-bride,
+            #name-fiance,
+            #last-name-fiance,
+            #tel-fiance,
+            #email-fiance{
+                width: 350px;
+            }
+
+            #ceremony-address,
+            #party-ceremony{
+                width: 600px;
+            }
+
+            .center{
+                text-align: center;
+            }
+
+            .color-bege{
+                background-color: #F0BD9D;
+                
+            }
+
+            .color-rose{
+                background-color: #EEAFDA;
+            }
+
+        </style>
+    </head>
+    <body>
+        <!-- Título de descrição -->
+        <div class="center">
+            <h1>Queremos saber sobre o grande dia!</h1>
+            <p>Com planejamento ideal, é possível organizar um casamento perfeito.</p>
+        </div>
+
+        <img src="./Image/wedding.png" alt="Casamento" width="350px" />
+
+        <!-- Formulário -->
+        <form action="/pagina-processa-dados-do-form" method="get">
+            <!-- Informações de contato da noiva e noivo -->
+            <fieldset>
+                <legend class="color-rose">
+                    <strong>Informação de contato</strong>
+                </legend>
+                <fieldset>
+                    <legend class="color-bege">Noiva</legend>
+
+                    <label for="name-bride">
+                        Nome:
+                    </label><br />
+                    <input type="text" name="name-bride" id="name-bride" required /><br /><br />
+
+                    <label for="last-name-bride">
+                        Sobrenome:
+                    </label><br />
+                    <input type="text" name="last-name-bride" id="last-name-bride" required /><br /><br />
+
+                    <label for="tel-bride">
+                        Telefone:
+                    </label><br />
+                    <input type="tel" name="tel-bride" id="tel-bride" placeholder="3303-3333" pattern="[0-9]{4}-[0-9]{4}" required /><br /><br />
+
+                    <label for="email-bride">
+                        E-mail:
+                    </label><br />
+                    <input type="email" name="email-bride" id="email-bride" placeholder="contato@email.com" required />
+                </fieldset>
+
+                <fieldset>
+                    <legend class="color-bege">Noivo</legend>
+
+                    <label for="name-fiance">
+                        Nome:
+                    </label><br />
+                    <input type="text" name="name-fiance" id="name-fiance" required /><br /><br />
+
+                    <label for="last-name-fiance">
+                        Sobrenome:
+                    </label><br />
+                    <input type="text" name="last-name-fiance" id="last-name-fiance" required /><br /><br />
+
+                    <label for="tel-fiance">
+                        Telefone:
+                    </label><br />
+                    <input type="tel" name="tel-fiance" id="tel-fiance" placeholder="3303-3333" pattern="[0-9]{4}-[0-9]{4}" required /><br /><br />
+
+                    <label for="email-fiance">
+                        E-mail:
+                    </label><br />
+                    <input type="email" name="email-fiance" id="email-fiance" placeholder="contato@email.com" required />
+                </fieldset>
+            </fieldset>
+
+            <!-- Informações sobre a cerimônia e a festa -->
+            <fieldset>
+                <legend class="color-rose">
+                    <strong>Casamento</strong>
+                </legend>
+
+                <label for="ceremonial">
+                    Há cerimonialista?
+                </label>
+                <select name="ceremonial" id="ceremonial" required>
+                    <option value=""></option>
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select><br /><br />
+
+                <label for="type-party">
+                    Qual será o tipo de festa?
+                </label>
+                <select name="type-party" id="type-party" required>
+                    <option value=""></option>
+                    <option value="bar wedding">Bar wedding</option>
+                    <option value="campo">Campo</option>
+                    <option value="mini wedding">Mini wedding</option>
+                    <option value="moderna">Moderna</option>
+                    <option value="praia">Praia</option>
+                </select><br /><br />
+
+                <label for="date">
+                    Data do casamento:
+                </label><br />
+                <input type="date" name="date" id="date" required /><br /><br />
+
+                <label for="invited">
+                    Quantos convidados para o dia?
+                </label><br />
+                <input type="number" name="invited" id="invited" required /><br />
+
+                <p>Escolha o buffet:</p>
+                <select>
+                    <optgroup label="Matinais">
+                        <option value=""></option>
+                        <option value="buffet americano">Buffet americano</option>
+                        <option value="buffet à francesa">Buffet à francesa</option>
+                        <option value="coquetal">Coquetel</option>
+                    </optgroup>
+                    <optgroup label="Vespertinos">
+                        <option value="buffet americano">Buffet americano</option>
+                        <option value="buffet à francesa">Buffet à francesa</option>
+                        <option value="coquetal">Coquetel</option>
+                    </optgroup>
+                    <optgroup label="Noturnos">
+                        <option value="buffet americano">Buffet americano</option>
+                        <option value="buffet à francesa">Buffet à francesa</option>
+                        <option value="coquetal">Coquetel</option>
+                    </optgroup>
+                </select><br /><br />
+
+                <fieldset>
+                    <legend class="color-bege">Informações do local da cerimônia</legend>
+                    <label for="ceremony-time">
+                        Horário previsto de início da cerimônia?
+                    </label><br />
+                    <input type="time" name="ceremony-time" id="ceremony-time" required /><br /><br />
+    
+                    <label for="ceremony-address">
+                        Endereço da cerimônia:
+                    </label><br />
+                    <input type="text" name="ceremony-address" id="ceremony-address" required />
+                </fieldset>
+
+                <fieldset>
+                    <legend class="color-bege">Informações do local da festa</legend>
+
+                    <label for="party-time">
+                        Horário previsto de início da festa?
+                    </label><br />
+                    <input type="time" name="party-time" id="party-time" required /><br /><br />
+    
+                    <label for="party-ceremony">
+                        Endereço da cerimônia:
+                    </label><br />
+                    <input type="text" name="party-ceremony" id="party-ceremony" required />
+                </fieldset>
+            </fieldset>
+
+            <!-- Informações do DJ -->
+            <fieldset>
+                <legend class="color-rose"><strong>Programação musical para o DJ (Opcional)</strong>:</legend>
+
+                <input type="checkbox" name="music-metal" id="music-metal" value="metal" />
+                <label for="music-metal">Metal</label><br />
+
+                <input type="checkbox" name="music-pop" id="music-pop" value="pop" />
+                <label for="music-pop">Pop</label><br />
+
+                <input type="checkbox" name="music-rock" id="music-rock" value="rock" />
+                <label for="music-rock">Rock</label><br />
+            </fieldset>
+
+            <!-- Comentários -->
+            <label for="comment">
+                Por fim, conte-nos sobre aqueles detalhes que não podemos deixar de registrar que são de alguma forma especiais:
+            </label><br />
+            <textarea name="comment" id="comment" cols="30" rows="10" required></textarea><br />
+
+            <!-- Botões -->
+            <button type="reset">Limpar Formulário</button>
+            <button type="submit">Enviar Formulário</button>
+
+        </form><br />
+
+        <footer>
+            <p>
+                <small>
+                    Criado e desenvolvido por 
+                    <a href="https://github.com/janascher" target="_blank">
+                        Janaína Scher
+                    </a>, aluna da Alpha EdTech.
+                </small>
+            </p>
+            <p>
+                <small>
+                    Illustration by <a href="https://icons8.com/illustrations/author/HzkZD6h9f9qm">AsIa Vitalyevna</a> from <a href="https://icons8.com/illustrations">Ouch!</a>
+                </small>
+            </p>
+        </footer>
+
+    </body>
+</html>
