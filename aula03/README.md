@@ -15,7 +15,7 @@
 </h4>
 <br></br>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/99639af0-0b7a-437d-99b0-d5d78d2175a0/deploy-status)](https://pokemon-b8one-academy.netlify.app/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/99639af0-0b7a-437d-99b0-d5d78d2175a0/deploy-status)](https://desafio-aula03-alpha-edtech.netlify.app)
 
 --- 
 
