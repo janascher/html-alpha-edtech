@@ -1,5 +1,5 @@
 <p align="center">
-	<a href="https://nofaro.netlify.app/" target="_blank"> 
+	<a href="#" target="_blank"> 
 		<img alt="Alpha EdTech" title="Alpha EdTech" src="https://user-images.githubusercontent.com/79182711/166560516-462fab61-9049-4700-a87b-6425514743cf.png" width="750">
 	</a>    
 <br>
@@ -14,8 +14,6 @@
     🚧
 </h4>
 <br></br> 
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/4369c49b-5266-48b6-b027-5872a6a6838d/deploy-status)](https://app.netlify.com/sites/nofaro/deploys)
 
 --- 
 
