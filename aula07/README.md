@@ -13,7 +13,7 @@
     </a>
     🚧
 </h4>
-<br></br> 
+<br /><br /> 
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4369c49b-5266-48b6-b027-5872a6a6838d/deploy-status)](https://app.netlify.com/sites/nofaro/deploys)
 
