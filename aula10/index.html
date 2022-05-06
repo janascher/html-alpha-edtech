@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 10</title>
+
+    <script type="text/javascript">
+
+        //Função draw() é executada 1x ao término do carregamento da página. Neste exemplo usa o evento onload para fazer a página carregar primeiro.
+        function draw(){
+            const canvas = document.getElementById("square", "text");
+
+            if (canvas.getContext){
+                const ctx = canvas.getContext("2d");
+
+                //A propriedade fillStyle da API Canvas 2D especifica a cor e estilo.
+
+                //O método fillRect() da API Canvas 2D desenha um retângulo preenchido na posição (x,y), ou seja, largura (width) e altura (height), cujo estilo é determinado pelo fillStyle.
+                ctx.fillStyle = "rgb(200,0,0)";
+                ctx.fillRect (10, 10, 55, 50);
+
+                ctx.fillStyle = "rgba(0, 0, 200, 0.5)";
+                ctx.fillRect (30, 30, 55, 50);
+
+                ctx.fillStyle = "rgba(124, 203, 142, 0.5)";
+                ctx.fillRect (50, 50, 55, 50);
+
+                ctx.fillStyle = "rgba(246, 113, 255, 0.5)";
+                ctx.fillRect (70, 70, 55, 50);
+
+                ctx.fillStyle = "rgba(255, 244, 63, 0.5)";
+                ctx.fillRect (90, 90, 55, 50);
+
+                ctx.fillStyle = "rgb(90, 90, 90)";
+                ctx.font = "45px Brush Script MT";
+                ctx.fillText("Hello World!", 130, 50);
+                ctx.fillText("I'm Janaína Scher", 160, 100)
+            }
+        }
+    </script>
+
+    <style type="text/css">
+        canvas {
+            border: 5px dotted #9D8AA4;
+        }
+    </style>
+</head>
+
+<body onload="draw();">
+    <header>
+        <h1>Elemento canvas</h1>
+    </header>
+
+    <main>
+        <canvas id="square" width="450" height="150"></canvas>
+    </main>
+</body>
+
+<footer>
+    <p>
+        <small>
+            Criado e desenvolvido por 
+            <a href="https://github.com/janascher" target="_blank">
+                Janaína Scher
+            </a>, aluna da Alpha EdTech.
+        </small>
+    </p>
+</footer>
+</html>
